@@ -66,6 +66,10 @@ PC用のスタイル
   #nav-sp {
     display: none;
   }
+
+  .menu {
+    display: none;
+  }
 }
   /*================
 SP用のスタイル
@@ -93,6 +97,7 @@ SP用のスタイル
     top: 0;
     height: 100%;
     width: 100%;
+    display: none;
     z-index: 100;
   }
   /* クローズボタン */
@@ -119,6 +124,7 @@ SP用のスタイル
   }
   #nav-sp > a:hover {
     color: #ffffff;
+    text-decoration: underline;
   }
   #nav-sp > a:active {
     color: #ffffff;
